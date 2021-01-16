@@ -55,7 +55,7 @@ for(let i = 0; i < text.length; i++){
 
 console.log(`The number of words is ${wordCount + 1}.`)
 
-//number of times "et" appears
+//number of times "et" appears // "et" is latin for and so shouldn't be followed by ".", but woulod break the code in this instance
 
 let etCount = 0;
 
@@ -67,7 +67,7 @@ for(let i = 0; i < text.length; i++){
 
 console.log(`The number of instances of "et" is ${etCount}.`)
 
-//palindrome exercise
+//palindrome exercise - not complete
 
 const tacoCat = "Taco cat";
 const iHateThatGuy = "Tom is the worst"; //control test - not a palindrome
@@ -78,6 +78,8 @@ const racecar = "Racecar"; //Reuben reference, anyone?
 //check letter at index of each counter against each other (in lower case). If same, repeat loop
 //if two counters meet (index is the same or within one space of each other), then string is a palindrome - console.log 
 //if indecies do not match, break and console.log that it is not a palindrome
+
+//we did not figure this out without looking into function examples on the internet. 
 
 for (let i = 0; i < tacoCat.length; i++){
 
